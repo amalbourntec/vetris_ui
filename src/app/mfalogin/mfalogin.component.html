@@ -1,0 +1,29 @@
+  <!-- <p>login works!</p> -->
+  <body>
+    <div id="mfa">
+      <div class="container">
+          <div id="mfa-row" class="row justify-content-center align-items-center">
+              <div id="mfa-column" class="col-md-6">
+                  <div id="mfa-box" class="col-md-18">
+                      <form id="mfa-form" class="form" action="" (ngSubmit)="doMfaLogin()">
+                          <h3 class="text-center text-info">MFA Login</h3>
+                          <br>
+                          <div class="form-group">
+                              <label for="mfatoken" al class="text-info">MFA token:</label><br>
+                              <br>
+                              <input type="text" name="mfatoken" id="mfatoken" class="form-control" [(ngModel)]="otp">
+                              <br>
+                          </div>
+                          <br>
+                          <div class="form-group">
+                              <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+    
+  

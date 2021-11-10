@@ -9,11 +9,13 @@ import { UsermanagementComponent } from './components/usermanagement/usermanagem
 import { MastermanagementComponent } from './components/mastermanagement/mastermanagement.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MfaloginComponent } from './mfalogin/mfalogin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent    
+    LoginComponent,
+    MfaloginComponent    
     
     
   ],

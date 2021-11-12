@@ -10,12 +10,21 @@ import { MastermanagementComponent } from './components/mastermanagement/masterm
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MfaloginComponent } from './mfalogin/mfalogin.component';
+import { CommonModule } from '@angular/common';
+import { UsersComponent } from './users/users.component';
+import { HeaderComponent } from './common/header/header.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MfaloginComponent    
+    MfaloginComponent,
+    UsersComponent,
+    HeaderComponent,
+    NavbarComponent,
+    FooterComponent    
     
     
   ],
@@ -25,7 +34,8 @@ import { MfaloginComponent } from './mfalogin/mfalogin.component';
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from './home/layout/layout.component';
 import { MfaloginComponent } from './mfalogin/mfalogin.component';
+import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
  
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'mfalogin', component: MfaloginComponent},
-  { path: 'home', component: LayoutComponent},
+  { path: 'home', component: UsersComponent},
   {
     path: 'login',
 
